@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>Inscription</title>
+	<link rel="stylesheet" type="text/css" href="Inscription.css">
+	<script src="Inscription.js"></script>
+</head>
+<body>
+	
+<header>
+	
+	<h1>Inscription</h1> <br>
+
+	<nav> 
+		<a>Lien<a> <a>Lien<a> <a>Lien<a> 
+	</nav>
+
+</header>
+
+<main>
+	<form action="SiteVitrine (2).html" methode="post">
+
+		<div>	
+			<h2>Statut</h2>
+
+			<fieldset>
+				<legend> Fournisseur ?</legend>
+				<select name="fournisseur" >
+					<option value="exiadrink"> eXiaDrink </option>
+					<option value="autres"> Autres </option>
+				</select>
+			</fieldset>
+		</div>
+
+		<div class="For">
+			<h2>Formulaire</h2>
+
+			<fieldset class="Info">
+					<legend>Information : ? </legend>
+
+					<div class="radioHoriz">
+
+						<input type="radio" name="Type" value="Personnel" id="Perso">
+						<label for="Perso">Personnel</label>
+
+						<input type="radio" name="Type" value="Professionnel" id="Profess">
+						<label for="Profess">Professionnel</label>
+
+					</div>
+
+					<label for="TVA">N TVA</label><br>
+					<input type="text" name="TVA" id="TVA" required>
+				<br>
+					<label for="Prenom">Prenom</label><br>
+					<input type="text" name="Prenom" id="Prenom" required>
+				<br>
+					<label for="Nom">Nom</label><br>
+					<input type="text" name="Nom" id="Nom" required>
+				<br>
+					<div>
+						<input type="Radio" name="Sex" value="Male" id="Male">
+						<label for="Male">Male</label>
+					<br>
+						<input type="Radio" name="Sex" value="Female" id="Female">
+						<label for="Female">Female</label>
+					<br>
+						<input type="Radio" name="Sex" value="Other" id="Other">
+						<label for="Other">Other</label>
+					<br>
+					</div>
+					
+					<label for="email">email</label><br>
+					<input type="email" name="email" id="email" required>
+				<br>
+					<label for="adress">Adresse</label><br>
+					<input type="text" name="adress" id="adress" required>
+				<br>
+					<label for="Region">Region</label><br>
+					<input type="text" name="Region" id="Region" required>
+				<br>
+					<label for="Ville">Ville</label><br>
+					<input type="text" name="Ville" id="Ville" required>
+				<br>
+					<label for="CodePostale">Code Postal</label><br>
+					<input type="text" name="CodePostale" id="CodePostale" required>
+				<br>
+					<label for="CartePay">Carte Paiement</label><br>
+					<input type="password" name="CartePay" id="CartePay" required>
+					<img src="eye.jpg" class="Nye">
+					
+					<div class="But">
+					
+						<input type="submit" name="Valider">
+						<input type="reset" name="Reinitialiser">
+
+					</div>
+
+
+			</fieldset>
+
+		</div>
+	</form>
+</main>
+
+</body>
+</html>
